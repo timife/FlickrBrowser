@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="timifeoluwa.example.flickrbrowser"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="14"
+9-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <dist:module dist:instant="true" />
+14-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:8:5-40
+14-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:8:18-37
+15
+16    <application
+16-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:10:5-55:19
+17        android:allowBackup="true"
+17-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.2] C:\Users\Ifeoluwa Timothy\.gradle\caches\transforms-2\files-2.1\b2ec1cf1753971d993aa0a176b0b6f4a\core-1.0.2\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:15:9-35
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:16:9-40
+25        <activity
+25-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:17:9-24:20
+26            android:name="timifeoluwa.example.flickrbrowser.PhotoDetailsActivity"
+26-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:18:13-49
+27            android:label="@string/title_activity_photo_details"
+27-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:19:13-65
+28            android:theme="@style/AppTheme.NoActionBar" >
+28-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:20:13-56
+29            <meta-data
+29-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:21:13-23:82
+30                android:name="android.support.PARENT_ACTIVITY"
+30-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:22:17-63
+31                android:value="timifeoluwa.example.flickrbrowser.MainActivity" />
+31-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:23:17-79
+32        </activity>
+33        <activity
+33-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:25:9-42:20
+34            android:name="timifeoluwa.example.flickrbrowser.SearchActivity"
+34-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:26:13-43
+35            android:label="@string/title_activity_search"
+35-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:27:13-58
+36            android:parentActivityName="timifeoluwa.example.flickrbrowser.MainActivity"
+36-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:28:13-55
+37            android:theme="@style/AppTheme.NoActionBar" >
+37-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:29:13-56
+38            <meta-data
+38-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:21:13-23:82
+39                android:name="android.support.PARENT_ACTIVITY"
+39-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:22:17-63
+40                android:value="timifeoluwa.example.flickrbrowser.MainActivity" />
+40-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:23:17-79
+41
+42            <intent-filter>
+42-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:34:13-36:29
+43                <action android:name="android.intent.action.SEARCH" />
+43-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:35:17-71
+43-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:35:25-68
+44            </intent-filter>
+45
+46            <meta-data
+46-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:38:13-40:54
+47                android:name="android.app.searchable"
+47-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:39:17-54
+48                android:resource="@xml/searchable" />
+48-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:40:17-51
+49        </activity>
+50        <activity
+50-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:43:9-52:20
+51            android:name="timifeoluwa.example.flickrbrowser.MainActivity"
+51-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:44:13-41
+52            android:label="@string/app_name"
+52-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:45:13-45
+53            android:theme="@style/AppTheme.NoActionBar" >
+53-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:46:13-56
+54            <intent-filter>
+54-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:47:13-51:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:48:17-69
+55-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:48:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:50:17-77
+57-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:50:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <provider
+61-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:53:9-54:91
+62            android:name="timifeoluwa.example.flickrbrowser.MySuggestionProvider"
+62-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:53:19-55
+63            android:authorities="timifeoluwa.example.flickrbrowser.MySuggestionProvider" />
+63-->C:\Users\Ifeoluwa Timothy\Documents\AllTheRecipes\FlickrBrowser\app\src\main\AndroidManifest.xml:54:13-89
+64    </application>
+65
+66</manifest>

@@ -1,0 +1,4 @@
+#Tue Jun 02 15:20:21 CAST 2020
+base.0=C\:\\Users\\Ifeoluwa Timothy\\Documents\\AllTheRecipes\\FlickrBrowser\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
